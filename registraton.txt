@@ -15,6 +15,7 @@ $ npm rm serve-favicon --save
 
 //run application to test if no error
 node app.js
+//call your directory
 DEBUG=test:* ./bin/www
 DEBUG=test /bin/www
 npm start
@@ -30,7 +31,7 @@ $ npm install bower -g
 $ bower install angular
 $ bower install angular-route
 
->view>index.hbs
+>view>index.ejs
 
 <!DOCTYPE html>
 <html>
@@ -151,7 +152,8 @@ ANGULARJS GET DATA FROM NODE
             });
 }]);
 ________________________________________________________________________
-9 CREATE LAYOUT
+
+9 CREATE LAYOUT
 
 
 <div ng-app="myApp">
